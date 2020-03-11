@@ -10,6 +10,13 @@ public class Main {
         word.replace('t', 'r');
         System.out.println(word);
 
+        Sort sort = new Sort(new int[]{1, 5, 7, 2, 3, 6,});
+        System.out.println(sort);
+        sort.bubbleSort();
+        System.out.println(sort);
 
     }
+
+
+
 }
